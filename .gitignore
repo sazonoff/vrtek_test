@@ -2,6 +2,7 @@
 Bin
 _build
 config.in
+Obj
 
 #Ignore thumbnails created by windows
 Thumbs.db

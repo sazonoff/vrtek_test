@@ -12,6 +12,7 @@ int main( int argc, char *argv[] )
     (void)(argc, argv);
 
     utils::Runtime::setCurrentDir();
+    std::cout << std::endl << "Press any key to exit..." << std::endl;
 
     app::Application app;
 
@@ -20,7 +21,6 @@ int main( int argc, char *argv[] )
         app.run();
     }
 
-    std::cout << std::endl << "Press any key to exit app..." << std::endl;
     system( "pause >nul" );
     return 0;
 }
