@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Miner">
+      <UniqueIdentifier>{846d39cc-27fd-469b-807c-6e01b9ac1953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{892c9797-7dce-4e47-ba0c-19f887e59de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Money">
+      <UniqueIdentifier>{58989543-5d1e-4030-a328-554d7fe17741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trader">
+      <UniqueIdentifier>{5fb7b040-5918-4066-84fc-7ead4f819fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApiBinding">
+      <UniqueIdentifier>{a42b60ba-1b82-4333-94fb-fde29445d15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvilApi">
+      <UniqueIdentifier>{c574fb5c-d3d9-4b5d-b0df-4445b69db4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wallet">
+      <UniqueIdentifier>{e8b6ccf1-0071-4e96-96af-fb1046019811}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Miner\Miner.cpp">
+      <Filter>Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="Miner\MiningFactory.cpp">
+      <Filter>Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Money\Money.cpp">
+      <Filter>Money</Filter>
+    </ClCompile>
+    <ClCompile Include="Trader\Trader.cpp">
+      <Filter>Trader</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiBinding\ApiBinding.cpp">
+      <Filter>ApiBinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Wallet\Wallet.cpp">
+      <Filter>Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="EvilApi\AbstractItem.cpp">
+      <Filter>EvilApi</Filter>
+    </ClCompile>
+    <ClCompile Include="EvilApi\EvilApi.cpp">
+      <Filter>EvilApi</Filter>
+    </ClCompile>
+    <ClCompile Include="EvilApi\ItemFactory.cpp">
+      <Filter>EvilApi</Filter>
+    </ClCompile>
+    <ClCompile Include="EvilApi\RareItems.cpp">
+      <Filter>EvilApi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\stl_includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner\btc_miner.h">
+      <Filter>Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner\Miner.h">
+      <Filter>Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner\MiningFactory.h">
+      <Filter>Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="api_deprecated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Money\Money.h">
+      <Filter>Money</Filter>
+    </ClInclude>
+    <ClInclude Include="Trader\Trader.h">
+      <Filter>Trader</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiBinding\ApiBinding.h">
+      <Filter>ApiBinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Wallet\Wallet.h">
+      <Filter>Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="EvilApi\AbstractItem.h">
+      <Filter>EvilApi</Filter>
+    </ClInclude>
+    <ClInclude Include="EvilApi\EvilApi.h">
+      <Filter>EvilApi</Filter>
+    </ClInclude>
+    <ClInclude Include="EvilApi\ItemFactory.h">
+      <Filter>EvilApi</Filter>
+    </ClInclude>
+    <ClInclude Include="EvilApi\RareItems.h">
+      <Filter>EvilApi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
